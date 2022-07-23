@@ -11,6 +11,9 @@
     <!-- Bootstrap Icon-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -33,7 +36,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Poject</a>
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -48,7 +54,7 @@
     <section class="jumbotron text-center">
       <img src="img/MY.jpg" alt="Fadhly Alfallah" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Fadhly Alfallah</h1>
-      <p class="lead">Mahasiswa | Teknik Informatika</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -62,17 +68,17 @@
 
     <!-- About -->
     <section id="about">
-      <div class="countainer">
+      <div class="countainer" data-aos="fade-down" data-aos-offset="300" data-aos-duration="500">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-right">
             if you want to do it, do it now. If you don't, then you will regret it. If you're working on something you love and are passionate about, you don't have to have a master plan of how things will work out..
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-left">
             There are many bad reasons to start a company. But there's only one good, logical reason, and I think you know what it is: is to change the world. You shouldn't focus on why you can't do something, as most people do. You should
             focus on what you can possibly do, and be the exception. Twenty years from now, you will regret more what you didn't do than what you did, so let go of the bow, sail now from safe harbor, catch the wind in your voyage. Explore,
             Dream, Discover.
@@ -99,7 +105,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/project/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Set up my dream desktop to just play games and play with internet friends.</p>
@@ -107,7 +113,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/project/2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">set up my dream desktop to create a personal project or work or company project.</p>
@@ -115,7 +121,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/project/3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">who always accompanies when making projects or playing on my desktop.</p>
@@ -123,7 +129,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="img/project/4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">set up my laptop when I was in college and was raising funds for dream set up.</p>
@@ -131,7 +137,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="img/project/5.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">a nice and eye-pleasing mechanical keyboard.</p>
@@ -150,6 +156,72 @@
     </section>
 
     <!-- Akhir Project  -->
+
+    <!-- Galery -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/1.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/4.jpg" alt="Gambar 4" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/5.jpg" alt="Gambar 5" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/7.jpg" alt="Gambar 7" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/8.jpg" alt="Gambar 8" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/9.jpg" alt="Gambar 9" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/10.jpg" alt="Gambar 10" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Galery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -206,6 +278,33 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Mahasiswa | Teknik Informatika " });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxcHLv2IK9H5HEGXPelOX32GR_yJ2hSiY3tgF95Br8i_Eq8lY798USQSfeEBrRTsD_L/exec";
