@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
@@ -16,46 +14,35 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+    <title>Fadhly Alfallah - AR/VR Developer & Web Developer</title>
 
-    <title>My Porfolio | Fadhly Alfallah</title>
-  </head>
-  <body id="home">
-    <!-- NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm bg-primary fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Fadhly Alfallah</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-            </li>
-          </ul>
+</head>
+<body id="home">
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">FA</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-      </div>
     </nav>
-    <!-- Akhir NavBar-->
 
-    <!-- Jombotron-->
-    <section class="jumbotron text-center">
-      <img src="img/MY.jpg" alt="Fadhly Alfallah" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Fadhly Alfallah</h1>
-      <p class="lead"></p>
-      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <!-- Hero Section -->
+    <section id ="hero" class="hero">
+        <img src="img/MY.jpg" alt="Fadhly Alfallah" width="150" class="rounded-circle img-thumbnail" />
+        <h1>Fadhly Alfallah</h1>
+        <p>Menciptakan pengalaman digital interaktif yang menggabungkan teknologi immersive dan fungsionalitas web</p>
+        <div class="cta-buttons">
+            <a href="img/CV Fadhly S2.pdf" download class="btn btn-primary" style="padding: 15px 40px; font-size: 1.1rem;">📄 Download CV</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+        </div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
           <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
         </defs>
@@ -68,284 +55,279 @@
       </svg>
     </section>
 
-    <!-- Akhir Jombotron-->
-
-    <!-- About -->
-    <section id="about">
-      <div class="countainer" data-aos="fade-down" data-aos-offset="300" data-aos-duration="500">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p class="section-subtitle">Passion dalam menciptakan solusi digital yang inovatif</p>
+            <div class="about-content">
+                <p>
+                    Lulusan Informatika yang berspesialisasi dalam pengembangan aplikasi interaktif menggunakan teknologi Augmented Reality (AR), Virtual Reality (VR), dan web development. Memiliki keahlian teknis dalam Unity, Blender, dan berbagai framework web development untuk menciptakan solusi digital yang inovatif dan berorientasi pada user experience.
+                </p>
+                <p>
+                    Dengan pengalaman mengembangkan aplikasi AR untuk museum, platform VR pembelajaran bahasa Inggris, hingga sistem informasi berbasis web, saya fokus pada penciptaan produk teknologi yang tidak hanya fungsional tetapi juga memberikan pengalaman yang engaging bagi pengguna.
+                </p>
+                <p>
+                    Berpengalaman dalam kolaborasi tim lintas fungsi dengan kemampuan komunikasi yang kuat, serta berkomitmen untuk terus belajar dan menghadirkan solusi teknologi yang memberikan dampak positif.
+                </p>
+            </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4 mb-3" data-aos="fade-right">
-            if you want to do it, do it now. If you don't, then you will regret it. If you're working on something you love and are passionate about, you don't have to have a master plan of how things will work out..
-          </div>
-          <div class="col-md-4 mb-3" data-aos="fade-left">
-            There are many bad reasons to start a company. But there's only one good, logical reason, and I think you know what it is: is to change the world. You shouldn't focus on why you can't do something, as most people do. You should
-            focus on what you can possibly do, and be the exception. Twenty years from now, you will regret more what you didn't do than what you did, so let go of the bow, sail now from safe harbor, catch the wind in your voyage. Explore,
-            Dream, Discover.
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#e2edff"
+          fill="#ECF0F1"
           fill-opacity="1"
           d="M0,96L48,112C96,128,192,160,288,154.7C384,149,480,107,576,106.7C672,107,768,149,864,154.7C960,160,1056,128,1152,117.3C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
-    <!-- Akhir About-->
 
-    <!-- Project  -->
-    <section id="project">
-      <div class="countainer">
-        <div class="row text-center">
-          <div class="col">
-            <h2>My Project</h2>
-          </div>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Teknologi dan tools yang saya kuasai</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon">🎮</div>
+                    <h3>AR/VR Development</h3>
+                    <ul>
+                        <li>Unity 3D</li>
+                        <li>Vuforia / ARCore</li>
+                        <li>VR SDK Integration</li>
+                        <li>3D Interaction Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🎨</div>
+                    <h3>3D Modeling & Animation</h3>
+                    <ul>
+                        <li>Blender</li>
+                        <li>3D Asset Creation</li>
+                        <li>Texturing & Materials</li>
+                        <li>Animation</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">💻</div>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>PHP (Backend)</li>
+                        <li>MySQL Database</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">⚙️</div>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C# (Unity)</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Java (Basic)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500">
-              <img src="img/project/1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Set up my dream desktop to just play games and play with internet friends.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
-              <img src="img/project/2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">set up my dream desktop to create a personal project or work or company project.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
-              <img src="img/project/3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">who always accompanies when making projects or playing on my desktop.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
-              <img src="img/project/4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">set up my laptop when I was in college and was raising funds for dream set up.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
-              <img src="img/project/5.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">a nice and eye-pleasing mechanical keyboard.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fill-opacity="1"
           d="M0,192L48,192C96,192,192,192,288,192C384,192,480,192,576,181.3C672,171,768,149,864,165.3C960,181,1056,235,1152,229.3C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+      </svg>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Beberapa proyek yang telah saya kerjakan</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" > 
+                        <img src="img/project/project_1.jpg" alt="Museum AR" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Museum AR Experience</h3>
+                        <p>Aplikasi Augmented Reality untuk meningkatkan pengalaman pengunjung museum dengan konten interaktif 3D dan informasi digital yang engaging.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">Vuforia</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Blender</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/project/project_2.png" alt="Museum AR" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>VR English Learning Platform</h3>
+                        <p>Platform pembelajaran bahasa Inggris berbasis Virtual Reality yang menyediakan lingkungan immersive untuk praktik komunikasi dan interaksi.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">VR SDK</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D Audio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📚</div>
+                    <div class="project-content">
+                        <h3>Library Information System</h3>
+                        <p>Sistem informasi perpustakaan berbasis web untuk manajemen koleksi buku, peminjaman, dan administrasi perpustakaan secara efisien.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ECF0F1"
+          fill-opacity="1"
+           d="M0,64L48,101.3C96,139,192,213,288,229.3C384,245,480,203,576,181.3C672,160,768,160,864,165.3C960,171,1056,181,1152,197.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
 
-    <!-- Akhir Project  -->
-
-    <!-- Galery -->
-
-    <section id="gallery">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Gallery</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-3">
-            <a href="#">
-              <img src="img/gallery/1.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#">
-              <img src="img/gallery/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#">
-              <img src="img/gallery/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#">
-              <img src="img/gallery/4.jpg" alt="Gambar 4" class="img-fluid gallery-img" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="img-tilt">
-      <div class="container">
-        <div class="row">
-          <div class="col"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-3">
-            <div class="img-tilt-box">
-              <h4 class="img-tilt-name">Keyboard Mechanical</h4>
-              <img src="img/img-tilt/1.jpg" class="img-tilt-img-show" />
-              <a href="#" class="btn btn-light img-tilt-detail-button"> Show Details </a>
+    <!-- Certifications Section -->
+<section id="certifications" class="certifications">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Komitmen terhadap pembelajaran berkelanjutan</p>
+        
+        <div class="cert-grid">
+            <!-- Certificate 1 -->
+            <div class="cert-card">
+                <div class="cert-image">
+                    <img src="img/sertifikat/Sertifikat HUAHWEI ICT Algo design.png" alt="Algorithm and Program Design Certificate" width="8px" height="2px">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-title">Algorithm and Program Design</h3>
+                    <p class="cert-issuer">Penerbit: Huawei ICT Academy</p>
+                    <p class="cert-date">Tanggal: 13 November 2025</p>
+                    <p class="cert-description">
+                        Kursus dasar komputer dan disiplin ilmu informasi elektronik yang melatih penguasaan pengetahuan algoritma dasar secara sistematis dan penerapan algoritma dasar secara fleksibel.
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-3">
-            <div class="img-tilt-box">
-              <h4 class="img-tilt-name">CPU Computer</h4>
-              <img src="img/img-tilt/2.jpg" class="img-tilt-img-show" />
-              <a href="#" class="btn btn-light img-tilt-detail-button"> Show Details </a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-3">
-            <div class="img-tilt-box">
-              <h4 class="img-tilt-name">Mouse Computer</h4>
-              <img src="img/img-tilt/3.jpg" class="img-tilt-img-show" />
-              <a href="#" class="btn btn-light img-tilt-detail-button"> Show Details </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Akhir Galery -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <!-- Certificate 2 -->
+            <div class="cert-card">
+                <div class="cert-image">
+                    <img src="img/sertifikat/Sertifikat HUAHWEI ICT Python Programming Basic.png" alt="Python Programming Basic Certificate">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-title">Python Programming Basic</h3>
+                    <p class="cert-issuer">Penerbit: Huawei ICT Academy</p>
+                    <p class="cert-date">Tanggal: [Masukkan Tanggal]</p>
+                    <p class="cert-description">
+                        Kursus pra-pembelajaran untuk sertifikasi HCIA-AI yang berfokus pada sejarah, fitur, dan bidang aplikasi bahasa Python. Mempelajari sintaks dasar hingga penggunaan lanjutan Python, termasuk modul pandas, scipy, dan Scikit-learn.
+                    </p>
+                </div>
             </div>
-            <form name="contact-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
 
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
-          </div>
+            <!-- Certificate 3 -->
+            <div class="cert-card">
+                <div class="cert-image">
+                    <img src="img/sertifikat/Sertifikat HUAHWEI ICT HCIP-Datacom Core Technology.png" alt="HCIP-Datacom Core Technology Certificate">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-title">HCIP-Datacom Core Technology</h3>
+                    <p class="cert-issuer">Penerbit: Huawei ICT Academy</p>
+                    <p class="cert-date">Tanggal: [Masukkan Tanggal]</p>
+                    <p class="cert-description">
+                        Mempelajari pengetahuan inti umum di bidang komunikasi data, termasuk routing basics, OSPF, IS-IS, BGP, Ethernet switching, multicast, IPv6, network security, WLAN, dan solusi jaringan profesional.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#2F4255"
           fill-opacity="1"
           d="M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,144C672,128,768,128,864,144C960,160,1056,192,1152,202.7C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+       </svg>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Mari Berkolaborasi!</h2>
+            <p class="section-subtitle">Hubungi saya untuk diskusi proyek atau kolaborasi</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="icon">✉️</span>
+                    <a href="mailto:fadhlyalfallah07@gmail.com">fadhlyalfallah07@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">💼</span>
+                    <a href="https://github.com/FadhlyA" target="_blank" rel="noopener noreferrer">github.com/FadhlyA</a>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">📱</span>
+                    <a href="https://instagram.com/fadhlyalfallah" target="_blank" rel="noopener noreferrer">@fadhlyalfallah</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Akhir Contact -->
-
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-arrow-through-heart-fill text-danger"></i> by <a href="https://www.instagram.com/fadhlyalfallah/" class="text-white fw-bold">Fadhly Alfallah</a></p>
+    <footer>
+        <p>&copy; 2024 Fadhly Alfallah. All rights reserved.</p>
     </footer>
-    <!-- Akhir Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      const galleryImage = document.querySelectorAll(".gallery-img");
-
-      galleryImage.forEach((img, i) => {
-        img.dataset.aos = "fade-down";
-        img.dataset.aosDelay = i * 100;
-        img.dataset.aosDuration = 1000;
-      });
-
-      AOS.init({
-        once: true,
-        duration: 2000,
-      });
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
 
     <script>
-      gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Mahasiswa | Teknik Informatika " });
-      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
-      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
-      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
-    </script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-    <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbxcHLv2IK9H5HEGXPelOX32GR_yJ2hSiY3tgF95Br8i_Eq8lY798USQSfeEBrRTsD_L/exec";
-      const form = document.forms["contact-form"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".my-alert");
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.boxShadow = '0 2px 20px rgba(0,0,0,0.15)';
+            } else {
+                nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        //ketika tombol submit diklik
-        //tampilkan tombol loading,hilangkan tombol kirim
-        btnLoading.classList.toggle("d-none");
-        btnKirim.classList.toggle("d-none");
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            //tampilkan tombol kirim,hilangkan tombol loading
-            btnLoading.classList.toggle("d-none");
-            btnKirim.classList.toggle("d-none");
-            //tampilkan alert
-            myAlert.classList.toggle("d-none");
-            //reset formnya
-            form.reset();
-            console.log("Success!", response);
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
 
-    <script type="text/javascript" src="tilt/vanilla-tilt.min.js"></script>
-    <script type="text/javascript">
-      VanillaTilt.init(document.querySelectorAll(".img-tilt-box"), {
-        max: 25,
-        speed: 400,
-        glare: true,
-      });
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.8s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-card, .project-card').forEach(el => {
+            observer.observe(el);
+        });
     </script>
-  </body>
+</body>
 </html>
